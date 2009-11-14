@@ -1,0 +1,16 @@
+Source: doulos-sil-fonts
+Section: gui
+Priority: optional
+Maintainer: Mikhail Gusarov <dottedmag@dottedmag.net>
+Homepage: http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=DoulosSILfont
+Standards-Version: 3.8.3
+Build-Depends: debhelper (>= 7)
+XCS-Cross-Host-Build-Depends: debhelper (>= 7)
+XS-Vcs-Git: http://git.iplinux.org/doulos-sil-fonts.git
+XS-Vcs-Browser: http://git.iplinux.org/doulos-sil-fonts.git
+
+Package: doulos-sil-fonts
+Architecture: all
+Description: Doulos SIL fonts family
+ Doulos strives to provide comprehensive Roman and Cyrillic range of characters
+ in single typeface.
